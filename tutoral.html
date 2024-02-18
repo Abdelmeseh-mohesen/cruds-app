@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/tutoral.css">
+    <title>Document</title>
+</head>
+<body>
+
+ <!--grag system  -->
+   <!-- <div class="container ">
+    <div class="row">
+
+ <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12  g-2  ">
+     <img src="images\pexels-ali-müftüoğulları-2266017.jpg" alt="" height="300px" width="100%">
+     <h2> Lorem ipsuue eaque amet veritatis.</h2>
+     <p>Lorem ipsum dolor, sit amet recusanda emporibus velit nemo, voluptates esse cumque molestiae iusto!</p>
+ </div>
+ <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12  g-2">
+     <img src="images\pexels-ali-müftüoğulları-2266017.jpg" alt="" height="300px" width="100%">
+     <h2> Lorem ipsuue eaque amet veritatis.</h2>
+     <p>Lorem ipsum dolor, sit amet recusanda emporibus velit nemo, voluptates esse cumque molestiae iusto!</p>
+ </div>
+     <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12  g-2">
+     <img src="images\pexels-ali-müftüoğulları-2266017.jpg" alt="" height="300px" width="100%">
+     <h2> Lorem ipsuue eaque amet veritatis.</h2>
+     <p>Lorem ipsum dolor, sit amet recusanda emporibus velit nemo, voluptates esse cumque molestiae iusto!</p>
+</div>
+     <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12  g-2">
+     <img src="images\pexels-ali-müftüoğulları-2266017.jpg" alt="" height="300px" width="100%">
+     <h2> Lorem ipsuue eaque amet veritatis.</h2>
+     <p>Lorem ipsum dolor, sit amet recusanda emporibus velit nemo, voluptates esse cumque molestiae iusto!</p>
+</div>
+
+    </div>
+   </div>
+  -->
+
+<div class="container">
+
+    <div class="row py-5">
+<div class="col-md-9 mx-auto">
+
+ <label for="productNameInp"> producte Name </label>
+    <input type="text" class="form-control my-2"oninput="vailadateProductName()"  id="productNameInp" >
+
+    <label for="productPriceInp"> producte Price </label>
+    <input type="text" class="form-control my-2" id="productPriceInp">
+
+    <label for="productCategoryInp"> producte category </label>
+    <input type="text" class="form-control my-2" id="productCategoryInp">
+
+
+    <label for="productDescInp"> producte Desc </label>
+    <textarea type="text" class="form-control my-2" id="productDescInp"></textarea>
+    <button class="btn btn-info" onclick="AddProduct()" id="add"> Add producte</button>
+    <button class="btn btn-info d-none " id="UPdate"onclick= "AfterUpdate()"> UPdate</button>
+    <button class="btn btn-info m-1" onclick="Clear()"> Reset </button>
+</div>
+
+ 
+
+    </div>
+
+<div class=" w-75 mx-auto mb-4">
+    <input type="text" class="form-control" oninput=" search(this.value)" placeholder="search By Name" name="" id="">
+</div>
+
+</div>
+
+<table class="table table-striped w-75 mx-auto">
+    <thead>
+        <th>idex</th>
+        <th>product Name</th>
+        <th>product price</th>
+        <th>product Category</th>
+        <th>product Des</th>
+        <th> UPdate </th>
+        <th> Delete </th>
+       
+    </thead>
+    <tbody id="tbody">
+       
+    </tbody >
+
+</table>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+  <script src="tutoral.js"></script>
+
+</body>
+</html>

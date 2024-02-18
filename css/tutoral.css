@@ -1,0 +1,65 @@
+  /* انميشن 01
+  
+ /*
+
+h1
+{
+
+text-align: center;
+font-weight:bolder;
+padding: 15%;
+color: hsl(0, 0%, 45%);;
+}
+h1::after {
+  content: "|";
+  animation-name: typing;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+div {
+ width: 200px;
+ height: 200px;
+ background-color: tomato;
+ box-shadow: 2px 2px 5px mediumpurple;
+ margin: auto;
+}
+@keyframes  typing
+{
+3% {content: "|D";}
+6% {content: "|De";}
+9% {content: "|Des";}
+12% {content: "|Desi";}
+15% {content: "|Desig";}
+18% {content: "|Design";}
+21% {content: "|Designe";}
+24% {content: "|Designer";}
+27% {content: "|Designe";}
+30% {content: "|Design";}
+33% {content: "|Desig";}
+36% {content: "|Desi";}
+39% {content: "|Des";}
+42% {content: "|De";}
+45% {content: "|D";}
+48% {content: "|";}
+51% {content: "|D";}
+54% {content: "|De";}
+57% {content: "|Dev";}
+60% {content: "|Deve";}
+63% {content: "|Devel";}
+66% {content: "|Develo";}
+69% {content: "|Develop";}
+72% {content: "|Develope";}
+75% {content: "|Developer";}
+79% {content: "|Develope";}
+82% {content: "|Develop";}
+85% {content: "|Develo";}
+88% {content: "|Devel";}
+91% {content: "|Deve";}
+94% {content: "|Dev";}
+97% {content: "|De";}
+99% {content: "|D";}
+100% {content: "|";}
+
+}
+
+*\ */
